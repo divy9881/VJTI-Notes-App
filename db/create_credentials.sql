@@ -1,0 +1,7 @@
+use  vjti_app;
+
+CREATE TABLE CREDENTIALS(
+	userId int AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(300) UNIQUE,
+    password VARCHAR(300) NOT NULL
+);
